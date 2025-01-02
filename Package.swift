@@ -16,14 +16,14 @@ let package = Package(
     products: [
         .library(
             name: "StableSymbolKit",
-            targets: ["SymbolKit"]),
+            targets: ["StableSymbolKit"]),
     ],
     targets: [
         .target(
-            name: "SymbolKit",
+            name: "StableSymbolKit",
             dependencies: []),
         .testTarget(
-            name: "SymbolKitTests",
-            dependencies: ["SymbolKit"]),
+            name: "StableSymbolKitTests",
+            dependencies: ["StableSymbolKit"]),
     ]
 )
