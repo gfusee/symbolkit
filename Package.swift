@@ -15,7 +15,7 @@ let package = Package(
     name: "SymbolKit",
     products: [
         .library(
-            name: "SymbolKit",
+            name: "StableSymbolKit",
             targets: ["SymbolKit"]),
     ],
     targets: [
