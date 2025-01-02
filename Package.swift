@@ -12,7 +12,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "SymbolKit",
+    name: "StableSymbolKit",
     products: [
         .library(
             name: "StableSymbolKit",
